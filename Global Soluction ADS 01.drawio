@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T03:15:46.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 OPR/98.0.0.0" etag="FKszFSmj-10d9yRbpAYV" version="21.3.4" type="device">
+  <diagram name="Página-1" id="v5zqB0pPiULkuv1NZpRo">
+    <mxGraphModel dx="2509" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="N9V-cMYPq_usK8samTUW-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-2" target="N9V-cMYPq_usK8samTUW-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-2" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="10" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-3" target="N9V-cMYPq_usK8samTUW-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-3" value="Dados de usuario" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-6" target="N9V-cMYPq_usK8samTUW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-6" target="N9V-cMYPq_usK8samTUW-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-6" value="Verificação de dados" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="262" width="105" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-8" value="Parar código com mensagens de possiveis erros" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-10" value="Dados invalidos&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-13" target="N9V-cMYPq_usK8samTUW-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-13" value="Armazenar dados em variaveis/listas/dicionarios/tuplas" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="272" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-15" value="Dados validos&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="272" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-16" target="N9V-cMYPq_usK8samTUW-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-16" target="N9V-cMYPq_usK8samTUW-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-16" value="Verifica os dados armazenados&lt;br&gt;(validade)" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="402" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-20" value="Loop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="407.5" y="362" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-21" target="N9V-cMYPq_usK8samTUW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-21" value="Cria dataframe com os itens para coleta" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="532" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-23" value="Pass" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="412" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-25" value="Não esta proximo da validade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="472.5" y="402" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-26" value="Proximo validade" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="402" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-27" target="N9V-cMYPq_usK8samTUW-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-27" value="Transforma em xlsx" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="N9V-cMYPq_usK8samTUW-29" target="N9V-cMYPq_usK8samTUW-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-29" value="Confirmação de sucesso SMS (twilio)" style="whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="672" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="N9V-cMYPq_usK8samTUW-31" value="Fim" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;rounded=1;arcSize=11;" vertex="1" parent="1">
+          <mxGeometry x="352.5" y="782" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
