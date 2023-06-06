@@ -1,5 +1,9 @@
+#━━━━━━━━━❮Bibliotecas❯━━━━━━━━━
 from datetime import datetime
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
 
+
+#━━━━━━━━━━━━━━❮Classes❯━━━━━━━━━━━━━━
 class Produto:
     def __init__(self, nome, data_validade):
         self.nome = nome
@@ -47,6 +51,9 @@ class Logistica:
 class InterfaceUsuario:
     def __init__(self, logistica):
         self.logistica = logistica
+        
+        
+#━━━━━━━━━❮Inicio❯━━━━━━━━━
 
     def iniciar(self):
         while True:
@@ -87,6 +94,9 @@ class InterfaceUsuario:
                 print("Opção inválida!")
                 print('')
 
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
+
+
     def cadastrar_produto(self):
         nome_produto = input("Nome do produto: ")
         data_validade = input("Data de validade (formato dd/mm/aaaa): ")
@@ -96,6 +106,8 @@ class InterfaceUsuario:
         print(f"Produto {nome_produto} cadastrado com sucesso!")
         print('━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━')
         print('')
+
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
 
     def cadastrar_organizacao(self):
         nome = input("Nome da organização: ")
@@ -107,6 +119,7 @@ class InterfaceUsuario:
         print('━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━')
         print('')
 
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
     def mostrar_empresas_cadastradas(self):
         if len(self.logistica.organizacoes) == 0:
             print("Nenhuma empresa cadastrada.")
@@ -117,6 +130,8 @@ class InterfaceUsuario:
         print('━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━')
         print('')
 
+
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
     def mostrar_produtos_empresa(self):
         nome_empresa = input("Digite o nome da empresa: ")
         empresa_encontrada = False
@@ -137,6 +152,8 @@ class InterfaceUsuario:
         print('━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━')
         print('')
 
+
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
     def mostrar_ongs_cadastradas(self):
         if len(self.logistica.organizacoes) == 0:
             print("Nenhuma ONG cadastrada.")
@@ -154,6 +171,7 @@ class InterfaceUsuario:
         print('━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━')
         print('')
 
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
     def realizar_entrega(self):
         nome_empresa = input("Digite o nome da empresa: ")
         taxa_entrega = input("A empresa deseja pagar a taxa de entrega? (S/N): ")
@@ -190,6 +208,13 @@ class InterfaceUsuario:
         print('━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━')
         print('')
 
+
+#━━━━━━━━━━━━━━❮◆❯━━━━━━━━━━━━━━
+
+
+#━━━━━━━━━❮Teste❯━━━━━━━━━
 logistica = Logistica()
 interface_usuario = InterfaceUsuario(logistica)
 interface_usuario.iniciar()
+#━━━━━━━━━━━❮◆❯━━━━━━━━━━━
+
